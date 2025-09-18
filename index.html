@@ -2,47 +2,67 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>About Me</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
 <style>
   body {
     background: #1e1e1e;
     color: #e0e0e0;
     font-family: 'Courier New', Courier, monospace;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
     margin: 0;
-    padding: 40px;
+    padding: 0;
   }
-  .journal {
-    max-width: 600px;
-    line-height: 1.8;
-  }
-  h1 {
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 50px 20px;
     text-align: center;
-    margin-bottom: 20px;
-    font-weight: normal;
-    letter-spacing: 2px;
   }
+
+  h1, h2 {
+    letter-spacing: 2px;
+    font-weight: normal;
+  }
+
   p {
+    line-height: 1.8;
     margin: 15px 0;
   }
-  .mysterious {
-    font-style: italic;
-    opacity: 0.8;
+  .avatar {
+    margin: 20px 0;
+
+  }
+  .contact {
+    margin-top: %;
+    text-align: left;
+  }
+  
+  a {
+    color: #9ecfff;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  ul {
+    padding-left: 20px;
   }
 </style>
 </head>
 <body>
-<div class="journal">
+<div class="container">
   <h1>About Me</h1>
   <p>Always curious. Observing more than I speak.</p>
-  <p class="mysterious">Quietly building, quietly learning.</p>
-  <p>Small projects, fleeting ideas, endless questions.</p>
-  <p class="mysterious">Some things I share, most I keep.</p>
-  <p>Leveling up, one line of code at a time.</p>
+
+  <div style="avatar">
+    <img src="bfd4bb1d9c46275debde227178855ab7.gif" alt="Pixel Girl Avatar">
+  </div>
+
+  <div class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto">aaagaea@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/aivrill">github.com/aivrill</a></p>
+  </div>
 </div>
 </body>
 </html>
