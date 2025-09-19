@@ -29,14 +29,66 @@
     line-height: 1.8;
     margin: 15px 0;
   }
+
+ .pictures {
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+  margin-top: 30px;
+}
+
+.pictures img {
+  width: 200px;      
+  height: 150px;
+  object-fit: cover;  
+}
+.box {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .button a {
+      background: #333;
+      border: 2px solid #555;
+      border-radius: 5px;
+      padding: 10px 20px;
+      transition: background 0.3s, border-color 0.3s;
+      text-decoration: none;
+      color: #c0adad;
+      text-transform: uppercase;  
+      font-size: 14px;
+      letter-spacing: 1px;  
+      display: inline-block;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      cursor: pointer;
+      min-width: 100px;
+    }
+
+    .button a:hover {
+      background: #1d1c1c;
+      border-color: #161515;
+    }
 </style>
 </head>
 <body>
 <div class="container">
   <h1>About Me</h1>
-  <div class="bio">
-    <p>Hello! I'm Mary Avril, known as Aiya. I’m slowly discovering programming and web development. Learning, experimenting, and figuring things out one step at a time.</p>
+
+   <div class="pictures">
+    <img src="webcam-toy-photo3.jpg" alt="Aiya Picture 1" class="avatar">
+
   </div>
+  <div class="bio">
+    <p>Hello! I'm Mary Avril, Known as Aiya. 
+      <br>I’m slowly discovering programming and web development. Learning, experimenting, and figuring things out one step at a time.</p>
+  </div>
+
+  <div class="box">
+      <div class="button"><a href="index.html">Back</a></div>
+    </div>
 </div>
 </body>
 </html>
